@@ -1,4 +1,4 @@
-// knexfile.js
+
 module.exports = {
     development: {
       client: 'postgresql',

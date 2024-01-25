@@ -1,4 +1,4 @@
-// produtoController.js
+
 
 const  Produto  = require('../models/produtoModel'); // Importe seu modelo de Produto
 
@@ -12,5 +12,5 @@ module.exports = {
       res.status(500).json({ erro: 'Erro ao buscar produtos.' });
     }
   },
-  // Outros métodos do controlador, se necessário...
+ 
 };
